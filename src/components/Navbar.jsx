@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import logo from '../assets/logo.png';
+// import logo from '../assets/logo.png';
 import './Navbar.css';
 
 const Navbar = () => (
   <nav className="navbar">
     <div className="navbar-logo-area">
-      <img src={logo} alt="KariyerLab Logo" className="navbar-logo-img" />
+      <img src="/logo.png" alt="KariyerLab Logo" className="navbar-logo-img" />
       <span className="navbar-logo-text">KariyerLab</span>
     </div>
     <ul className="navbar-links">

@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from '../assets/logo.png';
+// import logo from '../assets/logo.png';
 import { motion } from 'framer-motion';
 
 const Hero = () => (
   <section id="hero" className="hero-section" style={{background:'#fff', borderRadius:'8px', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'}} >
    <motion.img 
-  src={logo} 
+  src="/logo.png" 
   alt="KariyerLab Logo" 
   className="hero-logo" 
   initial={{ opacity: 0, y: -40 }} 

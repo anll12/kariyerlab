@@ -18,7 +18,7 @@ const Jury = () => (
     <div className="jury-list">
       <motion.div className="jury-member" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
         <img
-          src={`/src/assets/${advisor.photo}`}
+          src={`/${advisor.photo}`}
           alt={advisor.name}
           className="jury-photo"
           style={{ width: '120px', height: '120px', objectFit: 'cover', borderRadius: '50%', marginBottom: '0.5rem', border: '2px solid #00bcd4' }}
@@ -33,7 +33,7 @@ const Jury = () => (
       {juryMembers.map((member, idx) => (
         <motion.div className="jury-member" key={member.name} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: (idx + 1) * 0.2 }}>
           <img
-            src={`/src/assets/${member.photo}`}
+            src={`/${member.photo}`}
             alt={member.name}
             className="jury-photo"
             style={{ width: '120px', height: '120px', objectFit: 'cover', borderRadius: '50%', marginBottom: '0.5rem', border: '2px solid #00bcd4' }}

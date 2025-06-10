@@ -14,7 +14,7 @@ const Team = () => (
       {teamMembers.map((member, idx) => (
         <motion.div className="team-member" key={member.name} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: idx * 0.2 }}>
           <img
-            src={`/src/assets/${member.photo}`}
+            src={`/${member.photo}`}
             alt={member.name}
             className="team-photo"
             style={{ width: '80px', height: '80px', objectFit: 'cover', borderRadius: '50%', marginBottom: '0.5rem',  }}
