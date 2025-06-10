@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const teamMembers = [
-  { name: 'Anıl Çelik', photo: 'anilcelik.jpg' },
+  { name: 'Çelik', photo: 'anilcelik.jpg' },
   { name: 'Ahmet Hakan Aksoy', photo: 'hakan.jpeg' },
   { name: 'Mustafa Karakuş', photo: 'mustafa.jpeg' },
 ];
