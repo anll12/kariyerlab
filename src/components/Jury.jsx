@@ -3,13 +3,13 @@ import { motion } from 'framer-motion';
 
 const advisor = {
   name: 'Elif Kurtaran Özbudak',
-  photo: 'ElifÖzbudak.webp',
+  photo: 'elif.webp',
   title: 'Dr. Öğr. Üyesi'
 };
 const juryMembers = [
-  { name: 'Tansel Dökeroğlu', photo: 'TanselDökeroglu.jpg', title: 'Prof. Dr.' },
-  { name: 'Özlem Albayrak', photo: 'ozlem-albayrak.png.webp', title: 'Dr. Öğr. Üyesi' },
-  { name: 'Venera Adanova', photo: 'VeneraAdanova.jpg', title: 'Dr. Öğr. Üyesi' },
+  { name: 'Tansel Dökeroğlu', photo: 'tansel.jpg', title: 'Prof. Dr.' },
+  { name: 'Özlem Albayrak', photo: 'özlem.webp', title: 'Dr. Öğr. Üyesi' },
+  { name: 'Venera Adanova', photo: 'venera.jpg', title: 'Dr. Öğr. Üyesi' },
 ];
 
 const Jury = () => (
