@@ -7,7 +7,7 @@ const reports = [
   { name: "Analysis Report", file: "/reports/Analysis%20Report.pdf" },
   { name: "Project Specification Report", file: "/reports/Project%20Specification%20Report.docx.pdf" },
   { name: "High Level Design Report", file: "/reports/High%20Level%20Design%20Report.pdf" },
-  { name: "Detailed Design Report", file: "/reports/Detailed%20Design.pdf" }
+  { name: "Detailed Design Report", file: "/reports/Detailed%20Design%20Report.pdf" }
 ];
 
 const pdfIcon = (
