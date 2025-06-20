@@ -6,9 +6,9 @@ const Contact = () => (
     <h2>İletişim</h2>
     <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }}>
     <p>Bize ulaşmak için:</p>
-      <p><a href="mailto:anil.celik@tedu.edu.tr">anil.celik@tedu.edu.tr</a></p>
-      <p><a href="mailto:mustafa.karakus@tedu.edu.tr">mustafa.karakus@tedu.edu.tr</a></p>
-      <p><a href="mailto:a.hakan.aksoy@tedu.edu.tr">a.hakan.aksoy@tedu.edu.tr</a></p>
+      <p><a href="mailto:anilcelik84@gmail.com">anilcelik84@gmail.com</a></p>
+      <p><a href="mailto:mstfkarakus42@gmail.com">mstfkarakus42@gmail.com</a></p>
+      <p><a href="mailto:ahmet.hakanaksoy2@gmail.com">ahmet.hakanaksoy2@gmail.com</a></p>
 
     </motion.p>
   </section>
